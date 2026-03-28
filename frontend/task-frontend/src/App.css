@@ -1,0 +1,30 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
